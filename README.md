@@ -1,2 +1,2 @@
-Welcome to my portfolio website
-\n GradStudio Skecthbook: https://bakarisp.github.io/Portfolio/GD_Sketchbook/index.html
+Welcome to my portfolio website  
+GradStudio Skecthbook: https://bakarisp.github.io/Portfolio/GD_Sketchbook/index.html
