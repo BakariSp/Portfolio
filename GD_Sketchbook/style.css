@@ -23,9 +23,12 @@ body {
 
 .right-side li, .left-side li {
     display: inline-block;
+    padding-left: 10px;
 }
 
 .right-side li a, .left-side li a{
+    /* margin-left: 20px; */
+
     border-radius: 15px;
     text-decoration: none;
     display: block;
