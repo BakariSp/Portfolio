@@ -66,8 +66,9 @@ body {
 
 /* apply small view image */
 .small-view{
-    border: 1px solid rgb(0, 0, 0);
-    max-width: 720px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* align-self: center; */
+    max-width: 960px;
 }
 
 /* apply center-align small view img*/
@@ -77,7 +78,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
 }
 
 .center-align li {
