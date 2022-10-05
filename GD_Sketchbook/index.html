@@ -4,53 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- add fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- add stylesheets -->
+    <link rel="stylesheet" href="style.css">
     <title>GradStudio Sketchbook</title>
 </head>
-<style>
-    html {
-        font-size: 14px;
-    }
 
-    header {
-        padding-right: 2em;
-        text-align: left;
-    }
-
-    body header h1 {
-        margin-left: 2em;
-    }
-
-
-    body header nav{
-        font-size: 2em;
-    }
-
-    body header nav{
-        margin-left: 2em;
-    }
-
-    .flex-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    
-</style>
 <body>
     <header>
-            <h1>GradStudio Sketchbook</h1>
-            <div>
-                <nav class="flex-container">
-                    <a>Concept</a>
-                    <a>Sketchbooke</a>
-                    <a>Video</a>
-                </nav>
-            </div>
-            
+        <nav class="nav-container">
+            <ul class="left-side">
+                <li><a>GradStudio Sketchbook</a></li>
+            </ul>
+            <ul class="right-side">
+                <li><a>Concept</a></li>
+                <li><a class="current">Sketchbooke</a></li>    
+                <li><a>Video</a></li>
+            </ul>
+        </nav>   
+        <div>
+            <p class="nav-text">Consider the Learning Outcomes of this module. How do you develop your collection of city parts based on personal interest, feedback, and new inspiration/critical frameworks from readings/discussion? What is the work plan that you set yourself? You might have to plan more excursions to collect new materials and/or give yourself an assignment to, say, generate ten drawing variations based around a theme. </p>
+        </div>  
     </header>
-    <main></main>
-    
-    
+    <main>
+        <nav>
+            <ul class="center-align">
+                <li><img src="img/concept_01.png" class="small-view"></li>
+                <li><img src="img/text_map.png" class="small-view"></li>
+                <h2>Week04: Simulation and Simulacra</h2>
+                <li><img src="img/wk04 (0).png" class="small-view"></li>
+                <li><img src="img/wk04 (1).png" class="small-view"></li>
+                <li><img src="img/wk04 (2).png" class="small-view"></li>
+            </ul>
+        </nav>
+    </main>
+
 </body>
 </html>

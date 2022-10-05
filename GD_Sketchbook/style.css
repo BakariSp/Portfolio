@@ -1,0 +1,95 @@
+/* reset some defaults */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/* set width to the body and place it to the center of the page */
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* container style */
+/* target the ul and remove the bullets */
+.right-side, .left-side {
+    list-style-type: none;
+    /* column-gap: 200px; */
+
+}
+
+.right-side li, .left-side li {
+    display: inline-block;
+}
+
+.right-side li a, .left-side li a{
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    padding: 8px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* apply hover */
+.right-side li a:hover, .left-side li a:hover {
+    color: rgba(255, 255, 255);
+    background-color: rgb(59, 59, 59);
+}
+
+.nav-container {
+   margin-top: 48px;
+   /* apply flex */
+   display: flex;
+   /* push both the blocks to the edges using justify-content */
+   justify-content: space-between;
+}
+
+.nav-text {
+    padding: 14px 10px;
+}
+
+/* apply current page */
+.current {
+    color: rgba(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    font-style: italic;
+}
+
+/* apply small view image */
+.small-view{
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 720px;
+}
+
+/* apply center-align small view img*/
+.center-align {
+    list-style-type: none;
+    background: rgba(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-align li {
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+main h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+
+
