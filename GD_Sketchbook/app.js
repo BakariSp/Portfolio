@@ -1,14 +1,23 @@
-window.onload = function() {
+
 const thumbs = document.querySelectorAll('.small-view');
 console.log(thumbs);
 
-thumbs.forEach(function(item,index){
-    item.onclick = function(){
-    img = document.getElementById('big-image');
-    img.src = this.src;
-    img.className = 'big-view';
+let thumbClicked = (event)=>{
+    thumbs.forEach(function(item,index){
+        item.classList.remove('current-image');
+        item.classList.add('small-view');
+    });
+    console.log(event);
 
-    this.className = "current-image";
-    }
-   });
-}
+    event.target.classList.add('current-image');
+    event.target.classList.remove('small-view');
+
+    document.getElementById('big-image').src = event.target.src;
+};
+
+
+thumbs.forEach(function(item,index){
+    item.addEventListener("click", thumbClicked);
+});
+
+
