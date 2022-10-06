@@ -67,11 +67,37 @@ body {
     font-style: italic;
 }
 
+
+/* main */
 /* apply small view image */
-.small-view{
+.current-image {
+    width: 120px;
+    opacity:1;
+    filter:alpha(opacity=100); 
+}
+
+.small-view {
     /* border: 1px solid rgb(0, 0, 0); */
     /* align-self: center; */
-    max-width: 960px;
+    /* max-width: 960px; */
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    width: 120px;
+}
+
+.big-view{
+    /* margin-left: 200px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* margin: 0 auto 0 auto; */
+    width: 1200px;
+}
+
+main ul li img:hover{
+    width: 140px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 /* apply center-align small view img*/
