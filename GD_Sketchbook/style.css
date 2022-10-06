@@ -89,10 +89,19 @@ body {
     display: inline-block;
 }
 
-main h2 {
-    font-size: 2em;
+main h3{
+    font-size: 1.5em;
     font-weight: bold;
     margin-left: 12px;
+    padding-top: 10px;
+}
+
+main div, main pre, body p{
+    font-size: 1.2em;
+    width: 1500px;
+    margin-left: 12px;
+    padding-bottom: 20px;
+    word-wrap: break-word;
 }
 
 
