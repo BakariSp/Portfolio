@@ -134,5 +134,14 @@ main div, main pre, body p{
     word-wrap: break-word;
 }
 
+main iframe {
+    /* width: 50%; */
+    /* align-self: center;; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
 
 
