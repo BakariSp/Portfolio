@@ -137,10 +137,16 @@ main div, main pre, body p{
 main iframe {
     /* width: 50%; */
     /* align-self: center;; */
-    display: block;
-    margin-left: auto;
+    /* display: block; */
+    margin-left: 200px;
     margin-right: auto;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+.under_video{
+    font-size: 1.2em;
+    margin-left: 200px;
+    margin-bottom: 40px;
 }
 
 
