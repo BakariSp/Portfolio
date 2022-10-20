@@ -143,11 +143,23 @@ main iframe {
     margin-bottom: 20px;
 }
 
-.under_video{
+.under_video {
     font-size: 1.2em;
     margin-left: 200px;
     margin-bottom: 40px;
 }
 
+.under_video_img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .row_show {
+    display: inline-block;
+    padding-left: 10px;
+} */
 
 
